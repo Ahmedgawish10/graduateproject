@@ -1,0 +1,54 @@
+
+#root{
+    overflow: hidden;
+}
+.scrollup{
+    padding: .3rem .5rem;
+    background-color: orange !important;
+    position: fixed;
+    right: 1.5rem;
+    bottom: -5.5rem;
+    border-radius: .5rem;
+    z-index: 100;
+    transition: .8s;
+    cursor: pointer;
+    color: white;
+    }
+    .show{
+        bottom: 1.4rem !important;
+
+   
+    }
+    .scrollup:hover{
+        background-color: rgb(190, 141, 34) !important;
+    
+    }
+    
+    .scrollup i{
+        font-size:1.5rem;
+        color: white;
+    
+    }
+    @media screen and (max-width:992px){
+        .scrollup i{
+            font-size:1.25rem;
+        
+        }
+    }
+    @media screen and (max-width:768px){
+        .scrollup{
+            right: 1rem;
+             bottom: -2.5rem;
+    
+        }
+    }
+    @media screen and (max-width:576px){
+      
+     
+    }
+    @media screen and (max-width:350px){
+    
+           
+    }
+    
+    
